@@ -1,0 +1,6 @@
+{
+  "browser": "chrome",
+  "headless_mode": true,
+  "base_url": "https://www.jdaqualitylimited.com/home",
+  "timeout": 1
+}
