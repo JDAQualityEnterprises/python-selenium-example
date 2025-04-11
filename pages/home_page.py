@@ -20,4 +20,4 @@ class HomePage(BasePage):
 
         self.click_contact_link = displayed_list.find_element(By.XPATH, f"./li[contains(.,'{'Contact'}')]//a")
 
-        self.email_links = driver.find_elements(By.XPATH, f"./a[contains(.,'{HomeLinks.Email}')]")
+        self.email_links = driver.find_elements(By.XPATH, f"//a[contains(.,'{HomeLinks.Email}')]")

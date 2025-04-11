@@ -11,4 +11,4 @@ class TestContactsPage:
 
         contacts_page = ContactsPage(self.driver)
 
-        assert(contacts_page.heading.text, "Contact")
+        assert contacts_page.heading.text, "Contact"
